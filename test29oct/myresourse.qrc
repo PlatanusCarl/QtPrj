@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/new/mapfiles">
-        <file>qu.geojson</file>
-        <file>qu.sld</file>
-    </qresource>
-</RCC>
