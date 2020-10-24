@@ -1,0 +1,14 @@
+#ifndef POLYGON_H
+#define POLYGON_H
+#include "geoclass.h"
+#include "point.h"
+
+class polygon:public geoclass
+{
+public:
+    polygon();
+    vector <point> polygonvec;
+
+};
+
+#endif // POLYGON_H

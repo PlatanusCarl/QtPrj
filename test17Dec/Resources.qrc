@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qt_zh_CN.qm</file>
+        <file>fragmentshadersource.frag</file>
+        <file>vertexshadersource.vert</file>
+        <file>tesselationControlShader.tcs</file>
+        <file>tesselationEvaluationShader.tes</file>
+    </qresource>
+</RCC>

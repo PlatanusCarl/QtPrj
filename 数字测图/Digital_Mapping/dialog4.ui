@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog4</class>
+ <widget class="QDialog" name="Dialog4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>233</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>方位角</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>真方位角A(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>AEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>坐标方位角α(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>alphaEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>磁方位角M(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>MEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>子午收敛角γ(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>gamaEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>磁偏角δ(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>deltaEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>磁坐偏角ε(angle)</string>
+        </property>
+        <property name="buddy">
+         <cstring>epsilonEdit</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="AEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="alphaEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="MEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="gamaEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="deltaEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="epsilonEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="calculateButton">
+        <property name="text">
+         <string>计算</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clearButton">
+        <property name="text">
+         <string>清空</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exitButton">
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

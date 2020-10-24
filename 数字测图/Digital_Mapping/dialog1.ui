@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog1</class>
+ <widget class="QDialog" name="Dialog1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>352</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>空间直角坐标与大地坐标转换</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>地球长半径（WGS-84系统）：6378137m</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>第一偏心率e²（WGS-84椭球）：0.0066943799013</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>大地经度&amp;L(angle)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>longitudeEdit</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>大地纬度&amp;B(angle)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>latitudeEdit</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>大地高&amp;H(m)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>heightEdit</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>空间直角坐标&amp;X(m)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>xEdit</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>空间直角坐标&amp;Y(m)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>yEdit</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>空间直角坐标&amp;Z(m)：</string>
+         </property>
+         <property name="buddy">
+          <cstring>zEdit</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="calculateButton">
+         <property name="text">
+          <string>计算</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="clearButton">
+         <property name="text">
+          <string>清空</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exitButton">
+         <property name="text">
+          <string>退出</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="longitudeEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="latitudeEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLineEdit" name="heightEdit"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="yEdit"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLineEdit" name="zEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="xEdit"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>longitudeEdit</tabstop>
+  <tabstop>latitudeEdit</tabstop>
+  <tabstop>heightEdit</tabstop>
+  <tabstop>xEdit</tabstop>
+  <tabstop>yEdit</tabstop>
+  <tabstop>zEdit</tabstop>
+  <tabstop>calculateButton</tabstop>
+  <tabstop>clearButton</tabstop>
+  <tabstop>exitButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

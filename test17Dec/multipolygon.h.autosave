@@ -1,0 +1,13 @@
+#ifndef MULTIPOLYGON_H
+#define MULTIPOLYGON_H
+#include "geoclass.h"
+#include "polygon.h"
+
+class multipolygon:public geoclass
+{
+public:
+    multipolygon();
+    vector<polygon> polygonlist; 
+};
+
+#endif // MULTIPOLYGON_H
